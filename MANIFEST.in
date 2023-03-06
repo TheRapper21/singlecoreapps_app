@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include singlecoreapps_app *.css
+recursive-include singlecoreapps_app *.csv
+recursive-include singlecoreapps_app *.html
+recursive-include singlecoreapps_app *.ico
+recursive-include singlecoreapps_app *.js
+recursive-include singlecoreapps_app *.json
+recursive-include singlecoreapps_app *.md
+recursive-include singlecoreapps_app *.png
+recursive-include singlecoreapps_app *.py
+recursive-include singlecoreapps_app *.svg
+recursive-include singlecoreapps_app *.txt
+recursive-exclude singlecoreapps_app *.pyc
